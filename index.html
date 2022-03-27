@@ -1,0 +1,170 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content -->
+    <h1 class="title">Light and Sound Memory Game</h1> 
+    <style>
+        h1{text-align: center;}
+    </style>
+    
+     <style>
+        p{text-align: left;}
+    </style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Light and Sound Memory Game</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Light and Sound Memory Game" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+    <button id="test" class="hidden" hidden>
+      Dont see me
+      
+    </button>
+
+    
+  </head>
+  <body>
+  
+  
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      
+      
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        
+       
+<!-- Commented out image
+        <img
+          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
+          class="illustration"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+     <!-- <h2>
+            Using this project
+          </h2> -->
+          <p id="description">
+            Welcome to my game! Repeat the pattern back 8 times to win!
+          </p>
+          
+          <button id="startBtn" class = "hidden" onclick="startGame()">
+            Start
+          </button>
+          
+          <button id="stopBtn" class="hidden" onclick="stopGame()" hidden>
+            Stop
+          </button>
+          
+        <div id="timer">
+          0:00
+        </div>
+          
+          
+          <div id= "gameButtonArea">
+            <audio src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/beep-1.mp3?v=1648315784389" id="Audio1"></audio>
+            <audio src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/beep-2.mp3?v=1648315786650" id="Audio2"></audio>
+            <audio src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/beep-3.mp3?v=1648315788925" id="Audio3"></audio>
+            <audio src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/beep-4.mp3?v=1648315791068" id="Audio4"></audio>
+            <audio src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/beep-5.mp3?v=1648315793118" id="Audio5"></audio>
+            
+            <button id = "button1" onclick="guess(1)" onmousedown="playAudio1(); showGreen();" onmouseup = "hideGreen();">
+              <img src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/Green.png?v=1648078841811" alt="Green.png" id = "greenPaint" width="400" height="400" hidden>
+            </button>
+            <button id = "button2" onclick="guess(2)" onmousedown="playAudio2(); showBlue();" onmouseup = "hideBlue();">
+              <img src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/Blue.png?v=1648078837818" alt="Blue.png" id = "bluePaint" width="400" height="400" hidden>
+            </button>
+            <button id = "button3" onclick="guess(3)" onmousedown="playAudio3(); showRed();" onmouseup = "hideRed()">
+              <img src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/Red.png?v=1648079134011" alt="Red.png" id = "redPaint" width="400" height="400" hidden>
+            </button>
+            <button id = "button4" onclick="guess(4)" onmousedown="playAudio4(); showYellow();" onmouseup = "hideYellow()">
+              <img src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/Yellow.png?v=1648079186121" alt="Yellow.png" id = "yellowPaint" width="400" height="400" hidden>
+            </button>
+            <button id = "button5" onclick="guess(5)" onmousedown="playAudio5(); showPurple();" onmouseup = "hidePurple()">
+              <img src="https://cdn.glitch.global/1b220b3e-a4de-4c1d-a398-2d51f302937f/Purple.png?v=1648078844652" alt="Purple.png" id = "purplePaint" width="400" height="400" hidden>
+            </button>
+            
+          </div>
+          
+          <!-- ADD BUTTON HERE -->
+          
+          <!-- Once you've added the button from the readme, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <!--
+    <footer class="footer">
+      <div class="links"></div>
+      <a
+        class="btn--remix"
+        target="_top"
+        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
+      >
+        <img
+          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+          alt=""
+        />
+        Remix on Glitch
+      </a>
+    </footer>
+-->
+  </body>
+</html>

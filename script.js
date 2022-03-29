@@ -63,6 +63,7 @@ function startGame(){
 
 function stopGame(){
     gamePlaying = false;
+    clearInterval(myInterval);
     document.getElementById("startBtn").removeAttribute("hidden");
     document.getElementById("stopBtn").setAttribute("hidden", "");
   
@@ -94,7 +95,10 @@ function playSingleClue(btn){
         playAudio1();
         break;
     }
-    setTimeout(clearButton,clueHoldTime,btn);
+    if (gamePlaying) {
+      setTimeout(clearButton,clueHoldTime,btn);
+    }
+    
   }
 }
 

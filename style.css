@@ -139,7 +139,7 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #FFFFFF;
+  color: #42eff5;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -174,7 +174,7 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
-  background: #FFFFFF;
+  background: #42f58d;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 10px;
@@ -195,6 +195,7 @@ h2 {
 }
 
 #description {
+  color: #42f5b6;
   text-align: center;
 }
 
@@ -322,6 +323,7 @@ h2 {
   margin-bottom: 10px;
   font-size: 80px;
   text-align: center;
+  color: #42f548;
 }
 
 

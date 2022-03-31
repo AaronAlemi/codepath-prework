@@ -36,6 +36,7 @@ The following **additional** features are implemented:
 
 - [X] Choosing incorrectly will create an alert that lets the user know how many chances they have left
 - [X] The timer starts with 5 seconds, and resets every round along with addiing an additional second per round to compensate for the additional time needed to input more choices
+- [X] Pressing buttons will not cause you to drag the image that displays on them, allowing for a more smooth user experience
 
 ## Video Walkthrough (GIF)
 
@@ -53,10 +54,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 [YOUR ANSWER HERE]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+One question about web development I have is 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+If I had a few more hours to work on this project, I would go back and try to make the code a bit more organized. It still contains some default code and comments from when you open a project on glitch that serve no major purpose to where the project is at now. In addition, some things that were added when following the tutorial for the basic light and sound memory game were eventually replaced by other bits of code when completing the optional features. For example, the startTone() and stopTone() functions no longer serve any purpose since custom audio was added, and a separate function was created for playing that instead. In addition to these clean-ups to the code, I also noticed a bug that occurrs when you stop the game while a sequence is currently playing that doesn't properly reset the timer. With additional time, I would go back into the code and patch this to create a better user experience.
 
 
 

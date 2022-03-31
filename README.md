@@ -2,7 +2,7 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **NAME**
+Submitted by: **Aaron Alemi**
 
 Time spent: **29** hours spent in total
 
@@ -22,7 +22,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [X] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [X] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [X] More than 4 functional game buttons
 * [X] Playback speeds up on each turn
@@ -34,7 +34,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [X] Choosing incorrectly will create an alert that lets the user know how many chances they have left
+- [X] The timer starts with 5 seconds, and resets every round along with addiing an additional second per round to compensate for the additional time needed to input more choices
 
 ## Video Walkthrough (GIF)
 

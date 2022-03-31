@@ -1,12 +1,12 @@
-# Pre-work - *Memory Game*
+# Pre-work - *5 Button Simon Says*
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+**5 Button Simon Says** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
 Submitted by: **Aaron Alemi**
 
-Time spent: **29** hours spent in total
+Time spent: **35** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (https://glitch.com/edit/#!/crocus-nonstop-sprite?path=README.md%3A1%3A0)
 
 ## Required Functionality
 
@@ -54,10 +54,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 [YOUR ANSWER HERE]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-One question about web development I have is 
+[One question about web development I have after this is how all of the different major components (front-end, back-end, and database) interact with each other. In my experiences so far, I’ve worked with each of these three individually, but not yet altogether combined into one singular project. My university studies so far have mostly focused on writing backend code with languages such as Java and C++. In addition, my databases course has focused on writing databases individually, but has not covered how to implement one in a large scale programming project. When it comes to this pre-work assignment, there was a front-end focus when it came to designing the layout of the site and styling the buttons and text, along with a back-end component as Javascript handled the logic of the game. What I would like to learn more about is how those two components are able to communicate with each other, as well as how a database could be implemented in this as well along with how said database would subsequently communicate with both the front-end and the back-end components.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-If I had a few more hours to work on this project, I would go back and try to make the code a bit more organized. It still contains some default code and comments from when you open a project on glitch that serve no major purpose to where the project is at now. In addition, some things that were added when following the tutorial for the basic light and sound memory game were eventually replaced by other bits of code when completing the optional features. For example, the startTone() and stopTone() functions no longer serve any purpose since custom audio was added, and a separate function was created for playing that instead. In addition to these clean-ups to the code, I also noticed a bug that occurrs when you stop the game while a sequence is currently playing that doesn't properly reset the timer. With additional time, I would go back into the code and patch this to create a better user experience.
+[If I had a few more hours to work on this project, I would go back and try to make the code a bit more organized. It still contains some default code and comments from when you open a project on glitch that serve no major purpose to where the project is at now. In addition, some things that were added when following the tutorial for the basic light and sound memory game were eventually replaced by other bits of code when completing the optional features. For example, the startTone() and stopTone() functions no longer serve any purpose since custom audio was added, and a separate function was created for playing that instead. In addition to these clean-ups to the code, I also noticed a bug that occurrs when you stop the game while a sequence is currently playing that doesn't properly reset the timer. With additional time, I would go back into the code and patch this to create a better user experience.]
 
 
 

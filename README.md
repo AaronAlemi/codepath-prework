@@ -35,7 +35,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] Choosing incorrectly will create an alert that lets the user know how many chances they have left
-- [X] The timer starts with 5 seconds, and resets every round along with addiing an additional second per round to compensate for the additional time needed to input more choices
+- [X] The timer starts with 5 seconds, and resets every round along with adding an additional second per round to compensate for the additional time needed to input more choices
 - [X] Pressing buttons will not cause you to drag the image that displays on them, allowing for a more smooth user experience
 
 ## Video Walkthrough (GIF)

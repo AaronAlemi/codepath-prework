@@ -56,7 +56,7 @@ Shows progression of the game
 
 ![](LoseGame.gif)
 
-Shows what heppens when you lose the game
+Shows what happens when you lose the game
 
 ![](TimeOut.gif)
 

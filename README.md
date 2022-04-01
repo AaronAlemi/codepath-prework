@@ -6,7 +6,8 @@ Submitted by: **Aaron Alemi**
 
 Time spent: **35** hours spent in total
 
-Link to project: (https://glitch.com/edit/#!/crocus-nonstop-sprite?path=README.md%3A1%3A0)
+Link to project code: https://glitch.com/edit/#!/crocus-nonstop-sprite
+Link to live site: https://crocus-nonstop-sprite.glitch.me
 
 ## Required Functionality
 

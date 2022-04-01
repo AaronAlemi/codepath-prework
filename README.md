@@ -42,7 +42,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 [https://recordit.co/D2ijxJDF0G]() Demonstrates button functionality
-Buttons.gif
+![](Buttons.gif)
 
 ![](https://recordit.co/48GyVLm0vH) Full game demonstrations
 ![](gif3-link-here)

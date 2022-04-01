@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![https://recordit.co/D2ijxJDF0G](https://recordit.co/D2ijxJDF0G) Demonstrates button functionality
+[https://recordit.co/D2ijxJDF0G](https://recordit.co/D2ijxJDF0G) Demonstrates button functionality
 ![](https://recordit.co/48GyVLm0vH) Full game demonstrations
 ![](gif3-link-here)
 ![](gif4-link-here)

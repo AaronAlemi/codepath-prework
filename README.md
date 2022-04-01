@@ -41,8 +41,19 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-[https://recordit.co/D2ijxJDF0G]() Demonstrates button functionality
 ![](Buttons.gif)
+Shows button functionality and site layout
+![](Start_Stop.gif)
+Shows the starting and stopping of the game
+![](Progression.gif)
+Shows progression of the game
+![](LoseGame.gif)
+Shows what heppens when you lose the game
+![](TimeOut.gif)
+Shows what happens when you lose the game by time out
+![](WinGame.gif)
+Shows what happens when you win the game as well as the faster playback speed as the game progresses
+
 
 ![](https://recordit.co/48GyVLm0vH) Full game demonstrations
 ![](gif3-link-here)

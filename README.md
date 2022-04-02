@@ -92,7 +92,7 @@ Video of full game demonstration: https://recordit.co/48GyVLm0vH
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/5a713d5894ad41ec83e4d807c1f53f38)
 
 
 ## License

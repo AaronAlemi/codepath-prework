@@ -50,7 +50,7 @@ Shows button functionality and site layout
 
 ![](Start_Stop.gif)
 
-Shows the starting and stopping of the game
+Shows the starting and stopping of the game, along with the randomized order
 
 ![](Progression.gif)
 
